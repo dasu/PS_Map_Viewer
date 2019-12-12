@@ -1,0 +1,433 @@
+{
+	"game": "Post Scriptum",
+	"maps": {
+		"arnhem": {
+			"name": "arnhem",
+			"rName": "Arnhem",
+			"layers": [
+				{
+					"name": "RAASUK01",
+					"rName": "RAAS UK 01",
+					"type": "RAAS",
+					"time": "2:00:00",
+					"tickets": "400",
+					"teams": {
+						"GER": {
+							"vehicles": {
+								"MSP": 2,
+								"Transport": 2,
+								"APC": 1,
+								"Logistics": 1,
+								"Commander": 1,
+								"Armored": {
+									"Heavy": {
+										"name": "Stug III",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Stug_III"
+									},
+									"Medium/Light": {
+										"name": "Panzer VI Tiger",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Panzer_VI_Tiger"
+									},
+									"Recon": {
+										"name": "Sd. Kfz 222",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Sdkfz_222"
+									}
+								}
+							}
+						},
+						"UK": {
+							"vehicles": {
+								"MSP": 2,
+								"Transport": 0,
+								"APC": 3,
+								"Logistics": 1,
+								"Commander": 1,
+								"Armored": {
+									"Heavy": {
+										"name": "Churchill Mk IV",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Churchill_Mk_IV"
+									},
+									"Medium/Light": {
+										"name": "Cromwell",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Cromwell"
+									},
+									"Recon": {
+										"name": "Daimler",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Daimler"
+									}
+								}
+							}
+						}
+					},
+					"points": [
+						{
+							"name": "Axis Main",
+							"pos": {
+								"x": 559,
+								"y": -165
+							},
+							"radius": 307,
+							"main": true
+						},
+						{
+							"name": "UK Main",
+							"pos": {},
+							"size": "",
+							"main": true
+						}
+					]
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				}
+			]
+		},
+		"arnhem_range": {
+			"name": "arnhem_range",
+			"rName": "Arnhem Range",
+			"layers": []
+		},
+		"best": {
+			"name": "best",
+			"rName": "Best",
+			"layers": [
+				{
+					"name": "RAASUS01",
+					"rName": "RAAS US 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				},
+				{
+					"name": "single04",
+					"rName": "Single 04",
+					"type": "Offensive"
+				}
+			]
+		},
+		"dinant": {
+			"name": "dinant",
+			"rName": "Dinant",
+			"layers": [
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				}
+			]
+		},
+		"doorwerth": {
+			"name": "doorwerth",
+			"rName": "Doorwerth",
+			"layers": [
+				{
+					"name": "RAASUK01",
+					"rName": "RAAS UK 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "armored01",
+					"rName": "Armored 01",
+					"type": "armored"
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				},
+				{
+					"name": "single04",
+					"rName": "Single 04",
+					"type": "Offensive"
+				},
+				{
+					"name": "single05",
+					"rName": "Single 05",
+					"type": "Offensive"
+				}
+			]
+		},
+		"driel": {
+			"name": "driel",
+			"rName": "Driel",
+			"layers": [
+				{
+					"name": "RAASUK01",
+					"rName": "RAAS UK 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "armored01",
+					"rName": "Armored 01",
+					"type": "armored"
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				},
+				{
+					"name": "single04",
+					"rName": "Single 04",
+					"type": "Offensive"
+				},
+				{
+					"name": "single05",
+					"rName": "Single 05",
+					"type": "Offensive"
+				}
+			]
+		},
+		"grave": {
+			"name": "grave",
+			"rName": "Grave",
+			"layers": [
+				{
+					"name": "RAASUS01",
+					"rName": "RAAS US 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				}
+			]
+		},
+		"heelsum": {
+			"name": "heelsum",
+			"rName": "Heelsum",
+			"layers": [
+				{
+					"name": "RAASUK01",
+					"rName": "RAAS UK 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "armored01",
+					"rName": "Armored 01",
+					"type": "armored"
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				},
+				{
+					"name": "single04",
+					"rName": "Single 04",
+					"type": "Offensive"
+				},
+				{
+					"name": "single05",
+					"rName": "Single 05",
+					"type": "Offensive"
+				}
+			]
+		},
+		"oosterbeek": {
+			"name": "oosterbeek",
+			"rName": "Oosterbeek",
+			"layers": [
+				{
+					"name": "RAASUK01",
+					"rName": "RAAS UK 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "RAASUS01",
+					"rName": "RAAS US 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				},
+				{
+					"name": "single04",
+					"rName": "Single 04",
+					"type": "Offensive"
+				},
+				{
+					"name": "single05",
+					"rName": "Single 05",
+					"type": "Offensive"
+				}
+			]
+		},
+		"stonne": {
+			"name": "stonne",
+			"rName": "Stonne",
+			"layers": [
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				}
+			]
+		},
+		"veghel": {
+			"name": "veghel",
+			"rName": "Veghel",
+			"layers": [
+				{
+					"name": "RAASUK01",
+					"rName": "RAAS UK 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "RAASUS01",
+					"rName": "RAAS US 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "armored01",
+					"rName": "Armored 01",
+					"type": "armored"
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				},
+				{
+					"name": "single04",
+					"rName": "Single 04",
+					"type": "Offensive"
+				},
+				{
+					"name": "single05",
+					"rName": "Single 05",
+					"type": "Offensive"
+				}
+			]
+		},
+		"velmolen": {
+			"name": "velmolen",
+			"rName": "Velmolen",
+			"layers": [
+				{
+					"name": "RAASUK01",
+					"rName": "RAAS UK 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "RAASUS01",
+					"rName": "RAAS US 01",
+					"type": "RAAS"
+				},
+				{
+					"name": "single01",
+					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
+					"type": "Offensive"
+				},
+				{
+					"name": "single03",
+					"rName": "Single 03",
+					"type": "Offensive"
+				},
+				{
+					"name": "single04",
+					"rName": "Single 04",
+					"type": "Offensive"
+				}
+			]
+		}
+	}
+}
