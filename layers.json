@@ -71,8 +71,11 @@
 						},
 						{
 							"name": "UK Main",
-							"pos": {},
-							"size": "",
+							"pos": {
+								"x":0,
+								"y": 0
+							},
+							"radius": 307,
 							"main": true
 						}
 					]
@@ -80,7 +83,132 @@
 				{
 					"name": "single01",
 					"rName": "Single 01",
-					"type": "Offensive"
+					"type": "Offensive",
+					"time": "45:00",
+					"tickets": "600",
+					"teams": {
+						"GER": {
+							"vehicles": {
+								"MSP": 2,
+								"Transport": 3,
+								"APC": 0,
+								"Logistics": 1,
+								"Commander": 1,
+								"Armored": {
+									"Heavy": {
+										"name": "Jagdpanzer IV",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Jagdpanzer_IV"
+									},
+									"Medium/Light": {
+										"name": "Panzer V Panther",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Panzer_V"
+									},
+									"Recon": {
+										"name": "Sd. Kfz 232",
+										"link": "https://dasu.moe/PS/ArmorViewer/?armor=Sdkfz_232"
+									}
+								}
+							}
+						},
+						"UK": {
+							"vehicles": {
+								"MSP": 2,
+								"Transport": 0,
+								"APC": 3,
+								"Logistics": 2,
+								"Commander": 1,
+								"Armored": {
+								
+								}
+							}
+						}
+					},
+					"points": [
+						{
+							"name": "SS HQ",
+							"pos": {
+								"x": -119.5,
+								"y": 121.3125
+							},
+							"radius": 15.740479513423344,
+							"main": true
+						},
+						{
+							"name": "Arnhem Bridge South",
+							"pos":{
+								"x": -91.5,
+								"y": 128.875
+							},
+							"radius": 25.917085339597893,
+							"aInnerRadius": 12.6,
+							"dInnerRadius": 6.3,
+							"angle": 23
+						},
+						{
+							"name": "Arnhem Bridge North",
+							"pos":{
+								"x": -68.5625,
+								"y": 143
+							},
+							"radius": 17.10337366208784,
+							"aInnerRadius": 12.6,
+							"dInnerRadius": 6.3,
+							"angle": 9
+						},
+						{
+							"name": "Graveyard",
+							"pos":{
+								"x": -60.5625,
+								"y": 133.09375
+							},
+							"radius": 22.531770104954028,
+							"aInnerRadius": 12.6,
+							"dInnerRadius": 6.3,
+							"angle": 353
+						},
+						{
+							"name": "Town Hall",
+							"pos":{
+								"x": -47.25,
+								"y": 140.0625
+							},
+							"radius": 27.344017855830916,
+							"aInnerRadius": 12.6,
+							"dInnerRadius": 6.3,
+							"angle": 352
+						},
+						{
+							"name": "Koepelkerk",
+							"pos":{
+								"x": -36.75,
+								"y": 130
+							},
+							"radius": 33.370376552415465,
+							"aInnerRadius": 12.6,
+							"dInnerRadius": 6.3,
+							"angle": 321
+						},
+						{
+							"name": "Train Station",
+							"pos":{
+								"x": -26.09375,
+								"y": 123.625
+							},
+							"radius": 38.16846907134212,
+							"aInnerRadius": 12.6,
+							"dInnerRadius": 6.3,
+							"angle": 298
+						},
+						{
+							"name": "1st Airborne HQ",
+							"pos": {
+								"x": -23.125, 
+								"y": 105.3125
+							},
+							"radius": 15.740479513423344,
+							"main": true
+						}
+					]
 				},
 				{
 					"name": "single02",
@@ -134,6 +262,11 @@
 			"name": "dinant",
 			"rName": "Dinant",
 			"layers": [
+				{
+					"name": "RAAS01",
+					"rName": "RAAS 01",
+					"type": "RAAS"
+				},
 				{
 					"name": "single01",
 					"rName": "Single 01",
@@ -341,8 +474,18 @@
 			"rName": "Stonne",
 			"layers": [
 				{
+					"name": "RAAS 01",
+					"rName": "RAAS 01",
+					"type": "RAAS"
+				},
+				{
 					"name": "single01",
 					"rName": "Single 01",
+					"type": "Offensive"
+				},
+				{
+					"name": "single02",
+					"rName": "Single 02",
 					"type": "Offensive"
 				}
 			]
